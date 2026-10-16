@@ -1,0 +1,16 @@
+# รูปเอกสารยืนยันตัวตน / ไฟล์ที่ผู้ใช้อัปโหลด
+uploads/*
+!uploads/.gitkeep
+uploads/documents/*
+!uploads/documents/.gitkeep
+
+# ค่าเชื่อมต่อฐานข้อมูลจริง
+db.php
+
+# ไฟล์ฐานข้อมูลที่มีข้อมูลจริง
+*.sql
+!schema.sql
+
+# ไฟล์ขยะของระบบ
+.DS_Store
+Thumbs.db
